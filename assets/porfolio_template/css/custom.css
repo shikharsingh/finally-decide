@@ -1,0 +1,54 @@
+
+.Container_Blue {
+    background: #3468B3;
+    color: #FFF;
+    width: 100%;
+    padding: 0px !important;
+    margin-bottom: 2%;
+}
+
+.Container_Blue:hover {
+    background: #18BC9C;
+  }
+
+.Container_Blue .Content {
+    padding: 1em;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.Container_Blue .Source {
+    float: right;
+}
+
+.Container_Blue .Content h3, h4{
+    display: inline;
+}
+
+.Container_Blue .Heading3 {
+    color: #2e4859;
+    size: 12pt;
+    padding: 0px;
+    margin-left: 8px;
+}
+
+.image-wrap {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin: 0px !important;
+  background-color: #000000;
+}
+
+.actions {
+    float: right;
+}
+
+.important-text {
+    font-family: sans-serif;
+    font-size: 16pt;
+}
+
+#map {
+  margin-bottom: 5%
+}

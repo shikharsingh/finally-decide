@@ -1,0 +1,1 @@
+{"attributes":{"username":{"type":"string","unique":false,"required":true},"password":{"type":"string","unique":false,"required":true},"name":{"type":"string","unique":false,"required":true}},"globalId":"User","identity":"user"}

@@ -1,0 +1,18 @@
+{
+  "dependencies": {},
+  "machinepack": {
+    "machines": ["create_restaurants", "create_user", "destroy_restaurants", "destroy_user", "findOne_restaurants", "findOne_user", "find_restaurants", "find_user", "update_restaurants", "update_user"],
+    "machineVersions": {
+      "create_restaurants": "0.0.10",
+      "create_user": "0.0.3",
+      "destroy_restaurants": "0.0.10",
+      "destroy_user": "0.0.3",
+      "findOne_restaurants": "0.0.10",
+      "findOne_user": "0.0.3",
+      "find_restaurants": "0.0.10",
+      "find_user": "0.0.3",
+      "update_restaurants": "0.0.10",
+      "update_user": "0.0.3"
+    }
+  }
+}
