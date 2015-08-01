@@ -1,17 +1,22 @@
 {
   "dependencies": {},
   "machinepack": {
-    "machines": ["create_restaurants", "create_user", "destroy_restaurants", "destroy_user", "findOne_restaurants", "findOne_user", "find_restaurants", "find_user", "update_restaurants", "update_user"],
+    "machines": ["create_restaurants", "create_typerestaurant", "create_user", "destroy_restaurants", "destroy_typerestaurant", "destroy_user", "findOne_restaurants", "findOne_typerestaurant", "findOne_user", "find_restaurants", "find_typerestaurant", "find_user", "update_restaurants", "update_typerestaurant", "update_user"],
     "machineVersions": {
-      "create_restaurants": "0.0.10",
+      "create_restaurants": "0.0.12",
+      "create_typerestaurant": "0.0.3",
       "create_user": "0.0.3",
-      "destroy_restaurants": "0.0.10",
+      "destroy_restaurants": "0.0.12",
+      "destroy_typerestaurant": "0.0.3",
       "destroy_user": "0.0.3",
-      "findOne_restaurants": "0.0.10",
+      "findOne_restaurants": "0.0.12",
+      "findOne_typerestaurant": "0.0.3",
       "findOne_user": "0.0.3",
-      "find_restaurants": "0.0.10",
+      "find_restaurants": "0.0.12",
+      "find_typerestaurant": "0.0.3",
       "find_user": "0.0.3",
-      "update_restaurants": "0.0.10",
+      "update_restaurants": "0.0.12",
+      "update_typerestaurant": "0.0.3",
       "update_user": "0.0.3"
     }
   }

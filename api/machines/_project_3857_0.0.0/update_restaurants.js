@@ -1,36 +1,42 @@
 module.exports = {
   "inputs": {
-    "type": {
-      "example": "Asian",
-      "friendlyName": "type"
-    },
-    "name": {
-      "example": "McDonalds",
-      "friendlyName": "name"
-    },
-    "rating": {
-      "example": 5,
-      "friendlyName": "rating"
+    "address": {
+      "example": "1014 Hayden Creek",
+      "friendlyName": "address",
+      "required": true
     },
     "description": {
       "example": "this is a local establishment that has fantastic asian fusion food.",
-      "friendlyName": "description"
+      "friendlyName": "description",
+      "required": true
     },
-    "longitude": {
-      "example": 150,
-      "friendlyName": "longitude"
+    "type": {
+      "example": "Asian",
+      "friendlyName": "type",
+      "required": true
+    },
+    "zipcode": {
+      "example": 77479,
+      "friendlyName": "zipcode",
+      "required": true
     },
     "latitude": {
       "example": -180,
       "friendlyName": "latitude"
     },
-    "address": {
-      "example": "1014 Hayden Creek",
-      "friendlyName": "address"
+    "longitude": {
+      "example": 150,
+      "friendlyName": "longitude"
     },
-    "zipcode": {
-      "example": 77479,
-      "friendlyName": "zipcode"
+    "name": {
+      "example": "McDonalds",
+      "friendlyName": "name",
+      "required": true
+    },
+    "rating": {
+      "example": 5,
+      "friendlyName": "rating",
+      "required": true
     },
     "criteria": {
       "friendlyName": "criteria",
@@ -42,17 +48,17 @@ module.exports = {
     "success": {
       "friendlyName": "then",
       "example": [{
+        "address": "1014 Hayden Creek",
+        "description": "this is a local establishment that has fantastic asian fusion food.",
         "type": "Asian",
+        "zipcode": 77479,
+        "latitude": -180,
+        "longitude": 150,
         "name": "McDonalds",
         "rating": 5,
-        "description": "this is a local establishment that has fantastic asian fusion food.",
-        "longitude": 150,
-        "latitude": -180,
-        "address": "1014 Hayden Creek",
-        "zipcode": 77479,
         "id": 123,
-        "createdAt": "2015-07-25T03:13:56.324Z",
-        "updatedAt": "2015-07-25T03:13:56.324Z"
+        "createdAt": "2015-08-01T15:43:41.485Z",
+        "updatedAt": "2015-08-01T15:43:41.485Z"
       }]
     },
     "error": {

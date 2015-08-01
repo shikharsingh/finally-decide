@@ -1,27 +1,30 @@
 module.exports.routes = {
+  "post /user/logout": {
+    "target": "UserController.logout"
+  },
+  "get /signup": {
+    "target": "SignupController.find"
+  },
   "get /login": {
     "target": "LoginController.get_find"
-  },
-  "get /user/facebook": {
-    "target": "UserController.facebook"
-  },
-  "get /template2": {
-    "target": "Template2Controller.find"
-  },
-  "get /partialtest": {
-    "target": "PartialtestController.find"
   },
   "get /test/yelp": {
     "target": "TestController.yelp"
   },
-  "get /decide": {
-    "target": "DecideController.find"
-  },
-  "post /user/login": {
-    "target": "UserController.login"
+  "get /user/facebook": {
+    "target": "UserController.facebook"
   },
   "post /user/create": {
     "target": "UserController.create"
+  },
+  "get /partialtest": {
+    "target": "PartialtestController.find"
+  },
+  "post /restaurant/create": {
+    "target": "RestaurantController.create"
+  },
+  "get /decide": {
+    "target": "DecideController.find"
   },
   "post /login": {
     "target": "LoginController.post_create"
@@ -29,13 +32,13 @@ module.exports.routes = {
   "get /template": {
     "target": "TemplateController.find"
   },
-  "get /signup": {
-    "target": "SignupController.find"
+  "post /user/login": {
+    "target": "UserController.login"
   },
   "get /": {
     "target": "Home$Controller.find"
   },
-  "post /restaurant/create": {
-    "target": "RestaurantController.create"
+  "get /template2": {
+    "target": "Template2Controller.find"
   }
 };
